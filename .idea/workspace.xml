@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce65170-0917-418f-b02a-b380e6daa872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myMath/myMath1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMath/myMath2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myConst/myConst1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myStr/myStr1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myVar/myVar1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myVar/myVar2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myVar/myVar3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
     </list>
@@ -94,13 +97,43 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build myVar1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/myVar/myVar1.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myVar2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/myVar/myVar2.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myVar3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/myVar/myVar3.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build go-learn/" />
       <item itemvalue="Go Build.go build hello.go" />
+      <item itemvalue="Go Build.go build myVar1.go" />
+      <item itemvalue="Go Build.go build myVar2.go" />
+      <item itemvalue="Go Build.go build myVar3.go" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Build.go build myVar3.go" />
+        <item itemvalue="Go Build.go build myVar2.go" />
+        <item itemvalue="Go Build.go build myVar1.go" />
         <item itemvalue="Go Build.go build go-learn/" />
       </list>
     </recent_temporary>
@@ -132,25 +165,46 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" width="1071" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622724368880" />
-    <state width="1750" height="271" key="GridCell.Tab.0.bottom" timestamp="1622726184502">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="621" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623060624813">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
-    <state width="1750" height="271" key="GridCell.Tab.0.bottom/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726184502" />
-    <state width="1750" height="271" key="GridCell.Tab.0.center" timestamp="1622726184502">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="621" y="342" key="#com.intellij.fileTypes.FileTypeChooser/-2560.23.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1623060624813" />
+    <state width="1750" height="248" key="GridCell.Tab.0.bottom" timestamp="1623326396351">
+      <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="271" key="GridCell.Tab.0.center/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726184502" />
-    <state width="1750" height="271" key="GridCell.Tab.0.left" timestamp="1622726184501">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1750" height="374" key="GridCell.Tab.0.bottom/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726659806" />
+    <state width="1750" height="248" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1623059902249" />
+    <state width="1750" height="248" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1623326396351" />
+    <state width="1750" height="248" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1623325088652" />
+    <state width="1750" height="248" key="GridCell.Tab.0.center" timestamp="1623326396350">
+      <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="271" key="GridCell.Tab.0.left/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726184501" />
-    <state width="1750" height="271" key="GridCell.Tab.0.right" timestamp="1622726184502">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1750" height="374" key="GridCell.Tab.0.center/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726659805" />
+    <state width="1750" height="248" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1623059902249" />
+    <state width="1750" height="248" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1623326396350" />
+    <state width="1750" height="248" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1623325088651" />
+    <state width="1750" height="248" key="GridCell.Tab.0.left" timestamp="1623326396350">
+      <screen x="0" y="23" width="1792" height="1033" />
     </state>
-    <state width="1750" height="271" key="GridCell.Tab.0.right/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726184502" />
+    <state width="1750" height="374" key="GridCell.Tab.0.left/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726659804" />
+    <state width="1750" height="248" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1623059902249" />
+    <state width="1750" height="248" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1623326396350" />
+    <state width="1750" height="248" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1623325088650" />
+    <state width="1750" height="248" key="GridCell.Tab.0.right" timestamp="1623326396350">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state width="1750" height="374" key="GridCell.Tab.0.right/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622726659806" />
+    <state width="1750" height="248" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1623059902249" />
+    <state width="1750" height="248" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1623326396350" />
+    <state width="1750" height="248" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1623325088651" />
     <state x="397" y="210" key="SettingsEditor" timestamp="1622725748357">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/-2560.23.2560.1340/0.23.1792.1097@0.23.1792.1097" timestamp="1622725748357" />
+    <state x="561" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1623325430259">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="561" y="249" width="670" height="676" key="search.everywhere.popup/-2560.23.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1623325430259" />
+    <state x="561" y="249" width="670" height="676" key="search.everywhere.popup/-2560.23.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1623325024903" />
   </component>
 </project>
