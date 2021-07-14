@@ -58,6 +58,8 @@ func main() {
 
 	//常量
 	myConst.ConstTest1()
+	myConst.ConstTest2()
+	myConst.ConstTest3()
 
 }
 
