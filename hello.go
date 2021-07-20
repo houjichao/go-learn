@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/hjc/go-learn/myConditionSt"
 	"github.com/hjc/go-learn/myConst"
 	mathClass "github.com/hjc/go-learn/myMath"
+	"github.com/hjc/go-learn/myOperator"
 	"github.com/hjc/go-learn/myStr"
 	"github.com/hjc/go-learn/myVar"
 	"strconv"
@@ -60,6 +62,34 @@ func main() {
 	myConst.ConstTest1()
 	myConst.ConstTest2()
 	myConst.ConstTest3()
+	myConst.ConstTest4()
+
+	//运算符
+	//算术运算符
+	myOperator.OperatorDemo1()
+	//关系运算符
+	myOperator.OperatorDemo2()
+	//逻辑运算符
+	myOperator.OperatorDemo3()
+	//位运算符
+	myOperator.OperatorDemo4()
+	//赋值运算符
+	myOperator.OperatorDemo5()
+	//其他运算符
+	myOperator.OperatorDemo6()
+	//运算符优先级
+	myOperator.OperatorDemo7()
+
+	//条件语句
+	myConditionSt.IfDemo()
+	myConditionSt.IfElseDemo()
+	myConditionSt.IfNestDemo()
+	myConditionSt.SwitchDemo1()
+	myConditionSt.TypeSwitchDemo()
+	myConditionSt.NilDemo()
+	myConditionSt.ChanDemo()
+	myConditionSt.SelectDemo()
+
 
 }
 
