@@ -2,9 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/hjc/go-learn/myChannel"
 	"github.com/hjc/go-learn/myConditionSt"
 	"github.com/hjc/go-learn/myConst"
+	"github.com/hjc/go-learn/myDefer"
+	"github.com/hjc/go-learn/myMap"
 	mathClass "github.com/hjc/go-learn/myMath"
+	"github.com/hjc/go-learn/myMemory"
 	"github.com/hjc/go-learn/myOperator"
 	"github.com/hjc/go-learn/myStr"
 	"github.com/hjc/go-learn/myVar"
@@ -89,6 +93,19 @@ func main() {
 	myConditionSt.NilDemo()
 	myConditionSt.ChanDemo()
 	myConditionSt.SelectDemo()
+
+	//内存分配
+	myMemory.MakeDemo()
+
+	//Channel
+	myChannel.ChannelDemo1()
+
+	//Defer
+	myDefer.DeferDemo()
+
+	//Map
+	myMap.MapDemo1()
+	myMap.MapDemo2()
 
 
 }
