@@ -10,6 +10,8 @@ import (
 	mathClass "github.com/hjc/go-learn/myMath"
 	"github.com/hjc/go-learn/myMemory"
 	"github.com/hjc/go-learn/myOperator"
+	"github.com/hjc/go-learn/myOrm"
+	"github.com/hjc/go-learn/myRecursion"
 	"github.com/hjc/go-learn/myStr"
 	"github.com/hjc/go-learn/myVar"
 	"strconv"
@@ -106,6 +108,12 @@ func main() {
 	//Map
 	myMap.MapDemo1()
 	myMap.MapDemo2()
+
+	//递归调用 FibonacciDemo
+	myRecursion.CallFibonacci()
+
+	//GORM
+	myOrm.OperationDb()
 
 
 }
