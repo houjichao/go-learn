@@ -2,16 +2,18 @@ package main
 
 import (
 	"fmt"
+	"github.com/hjc/go-learn/myArray"
 	"github.com/hjc/go-learn/myChannel"
 	"github.com/hjc/go-learn/myConditionSt"
 	"github.com/hjc/go-learn/myConst"
 	"github.com/hjc/go-learn/myDefer"
+	"github.com/hjc/go-learn/myLanguageConversion"
 	"github.com/hjc/go-learn/myMap"
 	mathClass "github.com/hjc/go-learn/myMath"
 	"github.com/hjc/go-learn/myMemory"
 	"github.com/hjc/go-learn/myOperator"
-	"github.com/hjc/go-learn/myOrm"
 	"github.com/hjc/go-learn/myRecursion"
+	"github.com/hjc/go-learn/myRedis"
 	"github.com/hjc/go-learn/myStr"
 	"github.com/hjc/go-learn/myVar"
 	"strconv"
@@ -113,7 +115,16 @@ func main() {
 	myRecursion.CallFibonacci()
 
 	//GORM
-	myOrm.OperationDb()
+	//myOrm.OperationDb()
+
+	//Redis
+	myRedis.CallRedis()
+
+	//LanguageConversion语言类型转换
+	myLanguageConversion.LanguageConversionDemo()
+
+	//Array
+	myArray.ArrayDemo1()
 
 
 }
