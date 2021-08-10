@@ -12,6 +12,7 @@ import (
 	mathClass "github.com/hjc/go-learn/myMath"
 	"github.com/hjc/go-learn/myMemory"
 	"github.com/hjc/go-learn/myOperator"
+	"github.com/hjc/go-learn/myPointer"
 	"github.com/hjc/go-learn/myRecursion"
 	"github.com/hjc/go-learn/myRedis"
 	"github.com/hjc/go-learn/myStr"
@@ -125,6 +126,10 @@ func main() {
 
 	//Array
 	myArray.ArrayDemo1()
+
+	//Pointer
+	myPointer.PointerDemo1()
+	myPointer.PointerDemo2()
 
 
 }
