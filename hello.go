@@ -7,6 +7,7 @@ import (
 	"github.com/hjc/go-learn/myConditionSt"
 	"github.com/hjc/go-learn/myConst"
 	"github.com/hjc/go-learn/myDefer"
+	"github.com/hjc/go-learn/myInterface"
 	"github.com/hjc/go-learn/myLanguageConversion"
 	"github.com/hjc/go-learn/myMap"
 	mathClass "github.com/hjc/go-learn/myMath"
@@ -130,6 +131,10 @@ func main() {
 	//Pointer
 	myPointer.PointerDemo1()
 	myPointer.PointerDemo2()
+	myPointer.PointerDemo3()
+
+	//Interface
+	myInterface.InterfaceDemo1()
 
 
 }
