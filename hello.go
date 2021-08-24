@@ -135,6 +135,7 @@ func main() {
 
 	//Interface
 	myInterface.InterfaceDemo1()
+	myInterface.InterfaceDemo2()
 
 
 }
