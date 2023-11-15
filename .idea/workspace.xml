@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce65170-0917-418f-b02a-b380e6daa872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myConstraint/demo2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTemplate/htmlTemplate/my_template.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTemplate/textTemplate/my_template.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myTemplate/textTemplate/my_template.go" beforeDir="false" afterPath="$PROJECT_DIR$/myTemplate/textTemplate/my_template.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +76,11 @@
       <recent name="$PROJECT_DIR$/myMath" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myTemplate/textTemplate" />
       <recent name="$PROJECT_DIR$/myMath" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/hjc/go-learn/myTemplate">
+  <component name="RunManager" selected="Go Build.go build github.com/hjc/go-learn/myTemplate/textTemplate">
     <configuration name="go build github.com/hjc/go-learn/myConstraint/demo2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,15 +90,6 @@
       <filePath value="$PROJECT_DIR$/myConstraint/demo2/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/hjc/go-learn/myContext/demo1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/hjc/go-learn/myContext/demo1" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/myContext/demo1/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build github.com/hjc/go-learn/myTemplate" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,6 +97,15 @@
       <package value="github.com/hjc/go-learn/myTemplate" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/myTemplate/my_template.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/hjc/go-learn/myTemplate/textTemplate" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hjc/go-learn/myTemplate/textTemplate" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/myTemplate/textTemplate/my_template.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-learn/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -150,18 +149,18 @@
     <list>
       <item itemvalue="Go Build.go build go-learn/" />
       <item itemvalue="Go Build.go build github.com/hjc/go-learn/myTemplate" />
+      <item itemvalue="Go Build.go build github.com/hjc/go-learn/myTemplate/textTemplate" />
       <item itemvalue="Go Build.go build github.com/hjc/go-learn/myConstraint/demo2" />
-      <item itemvalue="Go Build.go build github.com/hjc/go-learn/myContext/demo1" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Test.Test_Chunk in github.com/hjc/go-learn/myConstraint/demo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/hjc/go-learn/myTemplate/textTemplate" />
         <item itemvalue="Go Build.go build github.com/hjc/go-learn/myTemplate" />
         <item itemvalue="Go Build.go build github.com/hjc/go-learn/myConstraint/demo2" />
         <item itemvalue="Go Test.Test_Chunk in github.com/hjc/go-learn/myConstraint/demo1" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build github.com/hjc/go-learn/myContext/demo1" />
       </list>
     </recent_temporary>
   </component>
