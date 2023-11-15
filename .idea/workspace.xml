@@ -23,10 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce65170-0917-418f-b02a-b380e6daa872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myConstraint/demo1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myConstraint/demo1/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myConstraint/类型约束.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myConstraint/demo2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myTemplate/htmlTemplate/my_template.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myTemplate/textTemplate/my_template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/houjichao",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "go.autoimport"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/houjichao&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.autoimport&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myMath" />
@@ -81,7 +81,16 @@
       <recent name="$PROJECT_DIR$/myMath" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_Chunk in github.com/hjc/go-learn/myConstraint/demo1">
+  <component name="RunManager" selected="Go Build.go build github.com/hjc/go-learn/myTemplate">
+    <configuration name="go build github.com/hjc/go-learn/myConstraint/demo2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hjc/go-learn/myConstraint/demo2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/myConstraint/demo2/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/hjc/go-learn/myContext/demo1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,6 +98,15 @@
       <package value="github.com/hjc/go-learn/myContext/demo1" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/myContext/demo1/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/hjc/go-learn/myTemplate" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/hjc/go-learn/myTemplate" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/myTemplate/my_template.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-learn/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -108,15 +126,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="github.com/hjc/go-learn" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/myContext/demo1/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -124,15 +133,6 @@
       <package value="github.com/hjc/go-learn" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/myConstraint/demo1/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="github.com/hjc/go-learn" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/test2/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="Test_Chunk in github.com/hjc/go-learn/myConstraint/demo1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -149,19 +149,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build go-learn/" />
+      <item itemvalue="Go Build.go build github.com/hjc/go-learn/myTemplate" />
+      <item itemvalue="Go Build.go build github.com/hjc/go-learn/myConstraint/demo2" />
       <item itemvalue="Go Build.go build github.com/hjc/go-learn/myContext/demo1" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build main.go (2)" />
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Test.Test_Chunk in github.com/hjc/go-learn/myConstraint/demo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/hjc/go-learn/myTemplate" />
+        <item itemvalue="Go Build.go build github.com/hjc/go-learn/myConstraint/demo2" />
         <item itemvalue="Go Test.Test_Chunk in github.com/hjc/go-learn/myConstraint/demo1" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build github.com/hjc/go-learn/myContext/demo1" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
